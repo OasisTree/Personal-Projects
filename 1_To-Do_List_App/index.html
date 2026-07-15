@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <title>To-do List</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sono:wght,MONO@200..800,1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <section class="header">
+        <div class="title">Task Manager</div>
+        <input type="text" class="input" placeholder="What needs to be done?" />
+        <button class="btn">Add Task</button>
+      </section>
+      <section class="body">
+        <p class="empty-message" style="display: none;">You have no tasks yet.</p>
+        <table class="task-table" style="display: ">
+            <thead>
+                <tr>
+                    <th>Task Name</th>
+                    <th>Subject</th>
+                    <th>Duedate</th>
+                    <th>Type</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        
+                    </td>
+                    <td>Subject A</td>
+                    <td>
+                        <input type="date" class="duedate-input" />
+                    </td>
+                    <td>
+                        <select name="type-input" id="">
+                            <option value="none">None</option>
+                            <option value="exam">Assignment</option>
+                            <option value="quiz">Quiz</option>
+                            <option value="exam">Exam</option>
+                            <option value="club">Club</option>
+                            <option value="lab">Lab</option>
+                            <option value="project">Project</option>
+                            <option value="group-activity">Group Activity</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="status-input" id="">
+                            <option value="not-started">Not started</option>
+                            <option value="in-progress">In progress</option>
+                            <option value="done">Done</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Task A</td>
+                    <td>Subject A</td>
+                    <td>December 09, 2026</td>
+                    <td>Exam</td>
+                    <td>Done</td>
+                </tr>
+                <tr>
+                    <td>Task A</td>
+                    <td>Subject A</td>
+                    <td>December 09, 2026</td>
+                    <td>Exam</td>
+                    <td>Done</td>
+                </tr>
+            </tbody>
+
+        </table>
+      </section>
+    </div>
+  </body>
+</html>
