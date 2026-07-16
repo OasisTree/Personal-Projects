@@ -14,68 +14,33 @@
     <div class="container">
       <section class="header">
         <div class="title">Task Manager</div>
-        <input type="text" class="input" placeholder="What needs to be done?" />
+        <input
+          type="text"
+          class="task-input"
+          placeholder="What needs to be done?"
+        />
         <button class="btn">Add Task</button>
       </section>
       <section class="body">
-        <p class="empty-message" style="display: none;">You have no tasks yet.</p>
+        <p class="empty-message" style="display: none">
+          You have no tasks yet.
+        </p>
         <table class="task-table" style="">
-            <thead>
-                <tr>
-                    <th>Task Name</th>
-                    <th>Subject</th>
-                    <th>Duedate</th>
-                    <th>Type</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-
-                    </td>
-                    <td>Subject A</td>
-                    <td>
-                        <input type="date" class="duedate-input" />
-                    </td>
-                    <td>
-                        <select name="type-input" id="">
-                            <option value="none">None</option>
-                            <option value="exam">Assignment</option>
-                            <option value="quiz">Quiz</option>
-                            <option value="exam">Exam</option>
-                            <option value="club">Club</option>
-                            <option value="lab">Lab</option>
-                            <option value="project">Project</option>
-                            <option value="group-activity">Group Activity</option>
-                        </select>
-                    </td>
-                    <td>
-                        <select name="status-input" id="">
-                            <option value="not-started">Not started</option>
-                            <option value="in-progress">In progress</option>
-                            <option value="done">Done</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Task A</td>
-                    <td>Subject A</td>
-                    <td>December 09, 2026</td>
-                    <td>Exam</td>
-                    <td>Done</td>
-                </tr>
-                <tr>
-                    <td>Task A</td>
-                    <td>Subject A</td>
-                    <td>December 09, 2026</td>
-                    <td>Exam</td>
-                    <td>Done</td>
-                </tr>
-            </tbody>
-
+          <thead>
+            <tr>
+              <th>Task Name</th>
+              <th>Subject</th>
+              <th>Duedate</th>
+              <th>Type</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr></tr>
+          </tbody>
         </table>
       </section>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>

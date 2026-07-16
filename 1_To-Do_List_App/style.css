@@ -1,88 +1,87 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #232526;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #232526;
 }
 
 .container {
-    display: grid;
-    background-color: #f8f7da;
-    width: 65vw;
-    height: 85vh;
-    border-radius: 9px;
-    grid-template-rows: 1fr 2fr;
+  display: grid;
+  background-color: #f8f7da;
+  width: 65vw;
+  height: 85vh;
+  border-radius: 9px;
+  grid-template-rows: 1fr 2fr;
 }
 
 .header {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    grid-template-rows: 1.5fr 1fr;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1.5fr 1fr;
 }
 
 .title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    font-weight: bolder;
-    text-align: center;
-    grid-column: span 2;
-    align-self: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  grid-column: span 2;
+  align-self: center;
 }
 
-.input {
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
-    height: 40px;
-    border-radius: 9px;
-    justify-self: stretch;
-    margin-left: 50px;
-    margin-right: 35px;
-    padding-left: 10px;
-
+.task-input {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  height: 40px;
+  border-radius: 9px;
+  justify-self: stretch;
+  margin-left: 50px;
+  margin-right: 35px;
+  padding-left: 10px;
 }
 
 .btn {
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: #f8f7da;
-    width: 160px;
-    height: 40px;
-    border-radius: 9px;
-    background-color: #232526;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #f8f7da;
+  width: 160px;
+  height: 40px;
+  border-radius: 9px;
+  background-color: #232526;
 }
 
 .body {
-    padding: 0 50px;
-    font-family: 'Poppins', sans-serif;
+  padding: 0 50px;
+  font-family: "Poppins", sans-serif;
 }
 
 .task-table {
-    width: 100%;
-    border-collapse: collapse;
-    box-sizing: border-box;
+  width: 100%;
+  border-collapse: collapse;
+  box-sizing: border-box;
 }
 
 .task-table thead th {
-    border-bottom: 2px solid #232526;
-    text-align: center;
-    padding: 7px 0px;
+  border-bottom: 2px solid #232526;
+  text-align: center;
+  padding: 7px 0px;
 }
 
 .task-table td {
-    border: 1px solid #232526;
-    text-align: center;
+  border: 1px solid #232526;
+  text-align: center;
 }
 
 .task-table tbody td:first-child {
-    border-left: none;
+  border-left: none;
 }
 
 .task-table tbody td:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 .task-table tr:last-child td {
-    border-bottom: none;
+  border-bottom: none;
 }
