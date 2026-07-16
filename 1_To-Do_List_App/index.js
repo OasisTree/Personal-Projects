@@ -17,26 +17,26 @@ function addTask() {
         <input type="text" class="subject-input" />
     </td>
     <td>
-    <input type="date" class="duedate-input" />
+        <input type="date" class="duedate-input" />
     </td>
     <td>
-    <select name="type-input" id="">
-        <option value="none">None</option>
-        <option value="exam">Assignment</option>
-        <option value="quiz">Quiz</option>
-        <option value="exam">Exam</option>
-        <option value="club">Club</option>
-        <option value="lab">Lab</option>
-        <option value="project">Project</option>
-        <option value="group-activity">Group Activity</option>
-    </select>
+        <select name="type-input" id="">
+            <option value="none">None</option>
+            <option value="exam">Assignment</option>
+            <option value="quiz">Quiz</option>
+            <option value="exam">Exam</option>
+            <option value="club">Club</option>
+            <option value="lab">Lab</option>
+            <option value="project">Project</option>
+            <option value="group-activity">Group Activity</option>
+        </select>
     </td>
     <td>
-    <select name="status-input" id="">
-        <option value="not-started">Not started</option>
-        <option value="in-progress">In progress</option>
-        <option value="done">Done</option>
-    </select>
+        <select name="status-input" id="">
+            <option value="not-started">Not started</option>
+            <option value="in-progress">In progress</option>
+            <option value="done">Done</option>
+        </select>
     </td>
   `;
   taskInput.value = "";
