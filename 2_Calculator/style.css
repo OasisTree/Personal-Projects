@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #444bbb;
+}
+
+.container {
+  display: grid;
+  height: 80vh;
+  width: 30vw;
+  box-sizing: border-box;
+  background-color: #e9ecf7;
+  border-radius: 9px;
+  padding: 2rem 2rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.05fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: span 4;
+}
+
+.display > output {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 95%;
+  height: 80%;
+  box-sizing: border-box;
+  background-color: #bbc4e7;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+  
+  padding: 0px 15px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button > button {
+  width: 80%;
+  height: 80%;
+  background-color: #8f9cd8;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+
+.operation > button {
+  background-color: #fff3b0;
+}
+
+#clear > button {
+  background-color: #364e86;
+  color: white;
+}
+
+#equals {
+  grid-column: span 2;
+}
+
+#equals > button {
+  background-color: #57ab5e;
+  color: white;
+}
+
+#del {
+  grid-column: span 2;
+}
+
+#del > button {
+  background-color: #b24a3b;
+  color: white;
+}
