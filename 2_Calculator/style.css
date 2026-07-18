@@ -37,8 +37,10 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
   font-size: 2rem;
-  
+
   padding: 0px 15px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .button {
